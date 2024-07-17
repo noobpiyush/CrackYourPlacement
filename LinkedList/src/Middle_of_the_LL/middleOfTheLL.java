@@ -14,19 +14,18 @@ package Middle_of_the_LL;
     }
 
 
-    public boolean hasCycle(ListNode head) {
-        ListNode slow = head;
+     public ListNode middleNode(ListNode head) {
 
-        ListNode fast = head;
+         ListNode slow = head;
+         ListNode fast = head;
 
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
+         while(fast != null && fast.next != null){
+             slow = slow.next;
+             fast = fast.next.next;
+         }
 
-            if (slow == fast) return true;
-        }
+         return slow;
 
-        return false;
-    }
+     }
 
 }
