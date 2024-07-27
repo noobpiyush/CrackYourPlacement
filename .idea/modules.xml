@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/CrackYourPlacement.iml" filepath="$PROJECT_DIR$/CrackYourPlacement.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stacks_And_Queues/Stacks_And_Queues.iml" filepath="$PROJECT_DIR$/Stacks_And_Queues/Stacks_And_Queues.iml" />
